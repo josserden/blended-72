@@ -1,0 +1,39 @@
+.header {
+  @apply py-3 md:py-[26px] xl:py-6 border-b;
+}
+
+.header-container {
+  @apply flex items-center justify-between;
+}
+
+.logo {
+  @apply font-bold text-2xl;
+}
+
+.accent {
+  @apply text-blue-600;
+}
+
+.burger-btn {
+  @apply w-10 h-10 flex items-center justify-center text-gray-700 hover:text-gray-500 focus:text-gray-500 transition-colors md:hidden;
+}
+
+.nav {
+  @apply hidden md:block;
+}
+
+.nav-list {
+  @apply flex items-center gap-[54px];
+}
+
+.nav-link {
+  @apply font-medium text-sm leading-4 tracking-wide py-8 border-blue-600 hover:border-b-4 focus:border-b-4 transition-all hover:text-blue-600 focus:text-blue-600;
+}
+
+.contact-list {
+  @apply hidden md:grid grid-cols-1 gap-[10px] xl:grid-cols-2 xl:gap-[30px];
+}
+
+.contact-link {
+  @apply text-xs font-semibold text-stone-500 hover:text-blue-500 focus:text-blue-500 transition-colors tracking-wide xl:text-base;
+}
